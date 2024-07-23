@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+.space-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5vh;
+}
+                 
+#logo{
+}
+
+.top-heading p{
+    font-size: 3rem;
+}
+
+.inputSearch{
+    position: relative;
+}
+
+#searchbar{
+    position: absolute;
+    height: 5vh;
+    width: 25vw;
+}
+
+#button{
+    position: absolute;
+    height: 5vh;
+    width: 2.4vw;
+    right: 37.6vw;
+}

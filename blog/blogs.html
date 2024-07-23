@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Writing Page</title>
+    <link rel="stylesheet" href="blogs.css">
+</head>
+
+<body>
+    <header>
+        <h1>Write Your Blog</h1>
+        <div class="back-button">
+            <a href="../index.html">Back to Home</a>
+        </div>
+    </header>
+
+    <main>
+        <form id="blogForm">
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title" required><br>
+
+            <label for="content">Content:</label><br>
+            <textarea id="content" name="content" rows="10" required></textarea><br>
+
+            <button type="submit">Publish</button>
+        </form>
+
+        <div id="blogContainer"></div>
+    </main>
+
+    <script src="blogs.js"></script>
+</body>
+
+</html>
+
